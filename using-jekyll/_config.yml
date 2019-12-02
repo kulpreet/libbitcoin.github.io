@@ -24,13 +24,18 @@ description: >-
   Libbitcoin is a set of cross platform, open source C++ libraries for building bitcoin applications.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://libbitcoin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# logo: "/assets/libbitcoin-logo.png"
+
 twitter_username: libbitcoininfo
 github_username:  libbitcoin
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
 
-search_enabled: false
+search_enabled: true
+
+footer_content: "Copyright &copy; 2019 Libbitcoin Developers."
 
 # Aux links for the upper right navigation
 aux_links:
